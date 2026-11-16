@@ -1,0 +1,19 @@
+# 数据文件一律不入库（防止公司数据误上传）
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.csv
+*.png
+!docs/*.png
+
+# 运行产物与旧工作目录
+frames/
+blur_frames/
+qc_output/
+demo_data/
+test.py/
+
+# Python
+__pycache__/
+*.pyc
